@@ -246,9 +246,10 @@ namespace WPF_PR5
                 //ItemsControl.ItemsSource
                 //comboBox2.DataContext = null;
                 //comboBox2.Items.Clear();
-                comboBox1.ItemsSource = list;
+                //comboBox1.ItemsSource = list;
                 comboBox2.ItemsSource = list;
                 comboBox1.SelectedIndex = -1;
+                comboBox2.SelectedIndex = -1;
             }
             else
             {
